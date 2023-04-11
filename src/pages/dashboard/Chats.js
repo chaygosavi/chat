@@ -17,7 +17,7 @@ import React from "react";
 import { faker } from "@faker-js/faker";
 import { ChatList } from "../../data";
 
-const StyledBadge = styled(Badge)(({ theme }) => ({
+export const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
     backgroundColor: "#44b700",
     color: "#44b700",
